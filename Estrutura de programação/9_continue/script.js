@@ -17,3 +17,8 @@ for(let i = 10; i > 0; i = i - 1) {
 
     console.log(i)
 }
+
+
+for(let numero = 0; numero <= 20; numero ++){
+    console.log("o número é: " + numero)
+}
