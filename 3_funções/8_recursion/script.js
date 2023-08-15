@@ -9,5 +9,4 @@ function retornarNumeroPar (n) {
 
 retornarNumeroPar(35)
 
-///
 
