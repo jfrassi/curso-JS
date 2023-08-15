@@ -7,6 +7,6 @@ function retornarNumeroPar (n) {
     }
 }
 
-retornarNumeroPar(35)
+retornarNumeroPar(32)
 
 
