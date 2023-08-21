@@ -1,8 +1,9 @@
 let cachorro = {
-    patas: 4 ,
+    patas: 4,
     nome: 'Shark',
-    latir: function () {
+    latir: function() {
         console.log("Au Au");
-    }
-}
+    },
+};
+
 cachorro.latir();
