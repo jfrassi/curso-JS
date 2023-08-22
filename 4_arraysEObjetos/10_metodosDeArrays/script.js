@@ -28,4 +28,7 @@ console.log(frutas[0])
 
 /// index of e last index of
 
-let numeros = [0, 1, 2, 1, 0]
+let numeros = [0, 0, 1, 3, 1];
+
+console.log(numeros.indexOf(1));
+console.log(numeros.lastIndexOf(1));
