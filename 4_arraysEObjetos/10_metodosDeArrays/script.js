@@ -42,3 +42,30 @@ let nums = [1, 2, 3, 4, 5];
 console.log(nums.slice(2,3))
 
 console.log(nums.slice(1))
+
+///forEach
+
+const names = ['matheus', 'maria', 'joao', 'pedro', 'iuri'];
+
+names.forEach(name => {
+    console.log("o nome é", name)
+})
+
+
+/// includes
+
+let carros = ['BMW', 'Fiat', "VW", 'Audi', 'Renault'];
+console.log(carros.includes('Fiat'));
+
+
+/// reverse
+
+let arr = ['socorram','me', 'subi', 'no', 'onibus', 'em', 'marrocos'];
+
+console.log(arr);
+
+console.log(arr.reverse());
+
+
+
+
