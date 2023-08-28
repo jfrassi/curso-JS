@@ -14,15 +14,20 @@ console.log(milAoContrario.padStart(6, '0'));
 
 let frase = "o rato roeu a roupa do rei de roma";
 
-let palavras = frase.trim();
-console.log(palavras);
+console.log(frase.split())
 
-palavras.reverse();
-palavras.join();
+/// join
+
+let frase1 = "Testando o split";
+
+let palavras = frase1.split(" ")
+
+console.log(frase1);
+let fraseMontada = palavras.join('.');
+console.log(fraseMontada);
 
 
-console.log(palavras)
+/// repeat
 
-let semEspaco = palavras.trim();
-
-console.log(semEspaco);
+let palavra = "eva e adao" ;
+console.log(palavra.repeat(10))
