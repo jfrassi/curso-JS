@@ -3,4 +3,3 @@ let nomes = ["joao", "matheus", "paulo"]
 let bool = [true, false, true];
 
 console.log(arr[ arr.length -1]);
-console.log(arr[0])
