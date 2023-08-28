@@ -1,9 +1,7 @@
-const person = {
-    name:'joao',
-    lastname: 'gouvea'
-}
+let nomes = ['joao', 'matheus', 'pedro'];
 
-const {name: fname, lastname: lname }= person;
+let[nomeA, nomeB, nomeC] = nomes;
 
-console.log(fname);
-console.log(lname);
+console.log(nomeA);
+console.log(nomeB);
+console.log(nomeC);
