@@ -42,8 +42,15 @@ if(names.includes('joao')){
 /////
 
 let arrum = [1,2,3,4,5,6,7,8];
-let arr2 = [1,2,3,4];
+let arr3 = [1,2,3,4];
 
-function eMaior (arr5) {
-    if()
+function eMaior (arr) {
+    if(arr.length > 5){
+        console.log("maior que 5")
+    } else {
+        console.log("é menor que 5")
+    }
 }
+
+eMaior(arrum);
+eMaior(arr3);
