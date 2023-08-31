@@ -9,4 +9,4 @@ let poodle = new Cachorro('Poodle');
 Cachorro.prototype.raca = "SRD"
 
 console.log(poodle.raca);
-console.log(Cachorro.prototype.raca);
+console.log(Cachorro.prototype.raca);    
